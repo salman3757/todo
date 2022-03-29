@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Work Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color:rgb(210, 255, 229);
+
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+nav a.router-link-exact-active {
+  color: var(--color-text);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-border);
+}
+
+nav a:first-of-type {
+  border: 0;
+}
+.nav-link{
+  cursor: pointer;
+}
+
+h3,h4{
+  font-weight: 700;
+  color: rgb(0, 85, 35);
+}
+h4{
+  font-weight: 600;
+  color: rgb(29, 66, 46);
+}
+
+.card{
+  min-width: 50%;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* border: 2px solid rgb(19, 158, 100); */
+  border-radius: 10px;
+  padding: 10px 20px;
+  padding-right: 10px;
+  background-color: #fff;
+}
+@media only screen and (min-width: 600px) {
+   .card{
+     min-width: 40vw;
+     max-width: 40vw;
+     margin-left: 30%;
+    margin-right: 30%;
+   }
+}
+
+
+
+.card-custom{
+  min-width: 50%;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* border: 2px solid rgb(19, 158, 100); */
+  border-radius: 10px;
+  padding: 10px 20px;
+  padding-right: 10px;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+  .container-custom{
+    min-width: 40vw;
+    max-width: 40vw;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
+.completed{
+  text-decoration: line-through;
+  text-decoration-color: rgb(12, 163, 93);
+  text-decoration-thickness: 0.2rem;
+}
